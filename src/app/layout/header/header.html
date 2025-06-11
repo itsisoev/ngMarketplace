@@ -1,0 +1,34 @@
+<div class="header-container">
+  <div class="header-container__top">
+    <div class="header-container__top-welcome">
+      <p>Welcome to Clicon online eCommerce store.</p>
+    </div>
+
+    <div class="header-container__top-links">
+      <div class="top-links">
+        @for (linkSocial of linksSocial(); track linkSocial) {
+          <a [routerLink]="linkSocial.href">
+            <img [src]="linkSocial.icon" width="18" height="18" alt="">
+          </a>
+        }
+      </div>
+      <div class="top-lang"></div>
+    </div>
+  </div>
+
+  <div class="header-container__line"></div>
+
+  <div class="header-container__bottom">
+    <div class="header-container__header-bottom-logo">
+      <h1>CLICON</h1>
+    </div>
+
+    <div class="header-container__header-bottom-btns">
+      @for(link of links(); track link) {
+        <a [routerLink]="link.href">
+          <img [src]="link.icon" width="26" height="26" alt="">
+        </a>
+      }
+    </div>
+  </div>
+</div>
