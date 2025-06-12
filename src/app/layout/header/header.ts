@@ -37,13 +37,13 @@ export class Header {
     effect(() => {
       const lang = this.currentLang();
       this.translate.use(lang);
-      localStorage.setItem('userLanguage', lang);
+      localStorage.setItem('language', lang);
     });
     this.translate.use(this.currentLang());
   }
 
   private getSavedLang(): string {
-    return localStorage.getItem('userLanguage') ||
+    return localStorage.getItem('language') ||
       this.translate.getBrowserLang() ||
       'en';
   }

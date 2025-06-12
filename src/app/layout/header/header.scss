@@ -15,6 +15,12 @@
     }
   }
 
+  &__top-line {
+    width: 0.0625rem;
+    height: 1.50rem;
+    background-color: var(--color-gray-500);
+  }
+
   &__top-links {
     gap: 0.625rem;
     display: flex;
@@ -27,6 +33,8 @@
     }
 
     .top-lang {
+      padding-bottom: 0.3125rem;
+
       select {
         font-size: 1rem;
         color: var(--color-white);
@@ -37,11 +45,11 @@
   }
 
   &__line {
-    top: 53px;
+    top: 3.3125rem;
     left: 0;
     position: absolute;
     width: 100%;
-    height: 1px;
+    height: 0.0625rem;
     background-color: var(--color-gray-500);
   }
 
