@@ -16,6 +16,10 @@
   }
 
   &__top-links {
+    gap: 0.625rem;
+    display: flex;
+    align-items: center;
+
     .top-links {
       a {
         margin: 0 0.3125rem;
@@ -23,6 +27,12 @@
     }
 
     .top-lang {
+      select {
+        font-size: 1rem;
+        color: var(--color-white);
+        border: none;
+        background-color: transparent;
+      }
     }
   }
 

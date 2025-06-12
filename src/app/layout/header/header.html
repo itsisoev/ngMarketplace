@@ -1,7 +1,7 @@
 <div class="header-container">
   <div class="header-container__top">
     <div class="header-container__top-welcome">
-      <p>Welcome to Clicon online eCommerce store.</p>
+      <p>{{ 'WELCOME_MESSAGE' | translate:{storeName: storeName()} }}</p>
     </div>
 
     <div class="header-container__top-links">
@@ -12,7 +12,14 @@
           </a>
         }
       </div>
-      <div class="top-lang"></div>
+
+      <div class="top-lang">
+        <select (change)="changeLanguage($event)" [value]="currentLang()">
+          @for (lang of languages(); track lang.code) {
+            <option [value]="lang.code" [selected]="lang.code === currentLang()">{{ lang.name }}</option>
+          }
+        </select>
+      </div>
     </div>
   </div>
 
@@ -20,11 +27,11 @@
 
   <div class="header-container__bottom">
     <div class="header-container__header-bottom-logo">
-      <h1>CLICON</h1>
+      <h1>{{ storeName() }}</h1>
     </div>
 
     <div class="header-container__header-bottom-btns">
-      @for(link of links(); track link) {
+      @for (link of links(); track link) {
         <a [routerLink]="link.href">
           <img [src]="link.icon" width="26" height="26" alt="">
         </a>
