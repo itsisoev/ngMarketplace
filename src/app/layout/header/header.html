@@ -13,6 +13,8 @@
         }
       </div>
 
+      <div class="header-container__top-line"></div>
+
       <div class="top-lang">
         <select (change)="changeLanguage($event)" [value]="currentLang()">
           @for (lang of languages(); track lang.code) {
