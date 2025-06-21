@@ -1,3 +1,43 @@
 {
-  "WELCOME_MESSAGE": "Добро пожаловать в интернет-магазин {{storeName}}."
+  "WELCOME_MESSAGE": "Добро пожаловать в интернет-магазин {{storeName}}.",
+  "CUSTOMER_SUPPORTS": "Поддержка клиентов",
+  "storeAddress": "4517 Вашингтон Авеню, Манчестер, Кентукки 39495",
+  "TOP_CATEGORY": "Топовая категория",
+  "CATEGORIES": {
+    "COMPUTER_LAPTOP": "Компьютер и ноутбук",
+    "SMARTPHONE": "Смартфон",
+    "HEADPHONE": "Наушники",
+    "ACCESSORIES": "Аксессуары",
+    "CAMERA_PHOTO": "Камера и фото",
+    "TV_HOMES": "ТВ и дома",
+    "BROWSE_ALL_PRODUCT": "Просмотреть все товары"
+  },
+   "QUICK_LINKS": "Быстрые ссылки",
+    "CATEGORIES2": {
+    "SHOP_PRODUCT": "Купить продукт",
+    "SHOPPING_CART": "Корзина покупок",
+    "WISHLIST": " Список желаемого",
+    "COMPARE": "Сравнить",
+    "TRACK_ORDER": "Отследить заказ",
+    "CUSTOMER_HELP": "Помощь клиентам",
+    "ABOUT_US": "О нас"
+  },
+  "POPULAR_TAG": "Популярные теги",
+    "CATEGORIES3": {
+    "GAME": "Игра",
+    "IPHONE": "Айфон",
+    "TV": " Телевизор",
+    "ASUS_LAPTOP": "Ноутбук Asus",
+    "MACBOOK": "Macbook",
+    "SSD": "SSD",
+    "GRAPHICS_CARD": "Видеокарта",
+    "POWER_BANK": "Повербанк",
+    "SMART_TV": "Умный телевизор",
+    "SPEAKER": "Динамик",
+    "TABLET": "Планшет",
+    "MICROWAVE": "Микроволновка",
+    "SAMSUNG": "Самсунг"
+  },
+  "KINBO": "Kinbo - Шаблон электронной коммерции &copy; 2021. Дизайн от Templatecookie"
+
 }
