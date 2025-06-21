@@ -1,3 +1,44 @@
 {
-  "WELCOME_MESSAGE": "Welcome to {{storeName}} online eCommerce store."
+  "WELCOME_MESSAGE": "Welcome to {{storeName}} online eCommerce store.",
+  "CUSTOMER_SUPPORTS": "Customer Supports",
+  "storeAddress": "4517 Washington Ave. Manchester, Kentucky 39495",
+   "TOP_CATEGORY": "Top Category",
+    "CATEGORIES": {
+    "COMPUTER_LAPTOP": "Computer & Laptop",
+    "SMARTPHONE": "SmartPhone",
+    "HEADPHONE": "Headphone",
+    "ACCESSORIES": "Accessories",
+    "CAMERA_PHOTO": "Camera & Photo",
+    "TV_HOMES": "TV & Homes",
+    "BROWSE_ALL_PRODUCT": "Browse All Product"
+  },
+    "QUICK_LINKS": "Quick links",
+    "CATEGORIES2": {
+    "SHOP_PRODUCT": "Shop Product",
+    "SHOPPING_CART": "Shopping Cart",
+    "WISHLIST": " Wishlist",
+    "COMPARE": "Compare",
+    "TRACK_ORDER": "Track Order",
+    "CUSTOMER_HELP": "Customer Help",
+    "ABOUT_US": "About Us"
+  },
+    "POPULAR_TAG": "Popular Tag",
+    "CATEGORIES3": {
+    "GAME": "Game",
+    "IPHONE": "iPhone",
+    "TV": " TV",
+    "ASUS_LAPTOP": "Asus Laptop",
+    "MACBOOK": "Macbook",
+    "SSD": "SSD",
+    "GRAPHICS_CARD": "Graphics Card",
+    "POWER_BANK": "Power Bank",
+    "SMART_TV": "Smart TV",
+    "SPEAKER": "Speaker",
+    "TABLET": "Tablet",
+    "MICROWAVE": "Microwave",
+    "SAMSUNG": "Samsung"
+  },
+  "KINBO": "Kinbo - eCommerce Template &copy; 2021. Design by Templatecookie"
+
 }
+
