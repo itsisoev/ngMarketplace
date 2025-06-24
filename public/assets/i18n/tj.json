@@ -1,3 +1,43 @@
 {
-  "WELCOME_MESSAGE": "Хуш омадед ба мағозаи онлайн {{storeName}}."
+  "WELCOME_MESSAGE": "Хуш омадед ба мағозаи онлайн {{storeName}}.",
+  "CUSTOMER_SUPPORTS": "Дастгирии муштариён",
+  "storeAddress": "4517 Вашингтон Авеню, Манчестер, Кентукки 39495",
+  "TOP_CATEGORY": "Категорияи беҳтарин",
+  "CATEGORIES": {
+    "COMPUTER_LAPTOP": "Компьютер ва ноутбук",
+    "SMARTPHONE": "Смартфон",
+    "HEADPHONE": "Наушник",
+    "ACCESSORIES": "Аксессуарҳо",
+    "CAMERA_PHOTO": "Камера ва акси",
+    "TV_HOMES": "ТВ ва хона",
+    "BROWSE_ALL_PRODUCT": "Намуд кардан ба ҳамаи маҳсулот"
+  },
+  "QUICK_LINKS": "Линкҳои зуд",
+    "CATEGORIES2": {
+    "SHOP_PRODUCT": "Хариди маҳсулот",
+    "SHOPPING_CART": "Савдозор",
+    "WISHLIST": "Роҳи хост",
+    "COMPARE": "Санҷиш кардан",
+    "TRACK_ORDER": "Пайгирии фармоиш",
+    "CUSTOMER_HELP": "Кумак ба мизоҷон",
+    "ABOUT_US": "Дар бораи мо"
+  },
+   "POPULAR_TAG": "Тегҳои маъруф",
+    "CATEGORIES3": {
+    "GAME": "Бозӣ",
+    "IPHONE": "Айфон",
+    "TV": " Телевизор",
+    "ASUS_LAPTOP": "Ноутбук Asus",
+    "MACBOOK": "Macbook",
+    "SSD": "SSD",
+    "GRAPHICS_CARD": "Картҳои графикӣ",
+    "POWER_BANK": "Банки барқӣ",
+    "SMART_TV": "Телевизори ғалладона",
+    "SPEAKER": "Гармон",
+    "TABLET": "Планшет",
+    "MICROWAVE": "Микроволновка",
+    "SAMSUNG": "Самсунг"
+  },
+    "KINBO": "Kinbo - Шаблон электрони савдо &copy; 2021. Дизайни Templatecookie"
+
 }
